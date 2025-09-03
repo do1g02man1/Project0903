@@ -66,7 +66,7 @@ int main()
     */
 
     /* // 4. 나이와 키를 입력 받아, 6세 이상, 120cm 이상일 때 롤러코스터 탑승 가능, 그 외에는 불가능으로 출력
-    const unsigned int LimitAge = 6;
+    const unsigned int LimitAge = 5;
     const float LimitHeight = 120.0f;
     unsigned int Age = 0;
     unsigned int Height = 0;
@@ -74,7 +74,7 @@ int main()
     printf("나이와 키를 입력해 주세요. ");
     std::cin >> Age >> Height;
 
-    if (Age >= LimitAge && Height >= LimitHeight) {
+    if (Age > LimitAge && Height >= LimitHeight) {
         printf("롤러코스터에 오신걸 환영합니다.");
     }
     else {
