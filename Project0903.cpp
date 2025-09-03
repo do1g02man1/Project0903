@@ -6,12 +6,21 @@ const float PIE = 3.14f;
 
 int main()
 {
-    float number1 = 10.0f; // 10이라는 float 타입의 값을 float인 number1에 넣기
-    float number2 = 15.0;  // 15라는 double 타입의 값을 float인 number2에 넣기
+    //float number1 = 10.0f; // 10이라는 float 타입의 값을 float인 number1에 넣기
+    //float number2 = 15.0;  // 15라는 double 타입의 값을 float인 number2에 넣기
 
-    std::cin >> number1 >> number2;
+    //std::cin >> number1 >> number2;
 
-    printf("number1 : %.2f\nnumber2 : %.2f", number1, number2);
+    //printf("number1 : %.2f\nnumber2 : %.2f", number1, number2);
+
+    //int square = 0;
+    //printf("정사각형의 한변의 길이를 입력하세요 : ");
+    //std::cin >> square;
+    //printf("정사각형의 넓이는 [%d]입니다.", square * square);
+
+
+
+    return 0;
 }
 
 /*
@@ -31,3 +40,10 @@ std::string : 문자열을 다룰 수 있는 데이터 타입.
     char str[32];   배열  // C언어
         
 */  
+
+/*
+
+상수(Constant)
+ - 변하지 않는 수
+
+*/
