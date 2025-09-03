@@ -104,7 +104,7 @@ int main()
     }
     */
 
-       // 6. 세 과목의 점수를 입력받아, 세 과목 평균 60점 이상이면 "합격", 아니면 "불합격"을 출력하는 프로그램을 작성하세요.     
+    /* // 6. 세 과목의 점수를 입력받아, 세 과목 평균 60점 이상이면 "합격", 아니면 "불합격"을 출력하는 프로그램을 작성하세요.     
        //    한과목이라도 40점 미만이면 불합격 출력하기
     int Kor, Eng, Math;
     float Avg;
@@ -120,24 +120,6 @@ int main()
     else {
         printf("불합격");
     }
-    
+    */
     return 0;
 }
-
-/*
-
-데이터 타입 
-int : 정수형. 일반적으로 32bit (약 -21억 ~ 21억) 
-float : 실수형. 32bit. 태생적으로 오차가 있는 타입. 총 7자리부터 오차 발생 
-double : 실수형. 64bit. 
-bool : boolean. True / False만 저장
-char : character. 글자 하나를 저장하는 데이터 타입. 8bit 정수형
-    char alpha = 'A';
-    char alpha = 65;
-std::string : 문자열을 다룰 수 있는 데이터 타입. 
-    문자열 : 글자 여러개가 연결된 것.
-    std::string str = "Hello World!";
-    char* str;      포인터
-    char str[32];   배열  // C언어
-        
-*/  
