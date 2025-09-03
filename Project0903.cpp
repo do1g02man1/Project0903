@@ -132,8 +132,6 @@ std::string : 문자열을 다룰 수 있는 데이터 타입.
  - || (Or)  ||의 양쪽 중 하나라도 True면 True. 그 외에는 False.
  - !  (Not) ! 뒤의 bool이 True 라면 False. 아니면 True. 
 
- 
-
 */
 
 /*
