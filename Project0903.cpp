@@ -2,7 +2,7 @@
 //
 
 #include <iostream>
-const float PIE = 3.14f;
+const float PI = 3.141592f;
 
 int main()
 {
@@ -11,7 +11,7 @@ int main()
     printf("원의 반지름을 입력해 주세요 : ");
     std::cin >> Radius;
 
-    printf("원의 넓이는 %.2f입니다.", Radius * Radius * PIE);
+    printf("원의 넓이는 %.2f입니다.", Radius * Radius * PI);
 
     return 0;
 }
