@@ -6,13 +6,6 @@ const float PIE = 3.14f;
 
 int main()
 {
-    //float number1 = 10.0f; // 10이라는 float 타입의 값을 float인 number1에 넣기
-    //float number2 = 15.0;  // 15라는 double 타입의 값을 float인 number2에 넣기
-
-    //std::cin >> number1 >> number2;
-
-    //printf("number1 : %.2f\nnumber2 : %.2f", number1, number2);
-
     float Radius;
 
     printf("원의 반지름을 입력해 주세요 : ");
