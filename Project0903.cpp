@@ -44,8 +44,7 @@ int main()
     //    printf("a가 b보다 작거나 같다.");
     //}
 
-    //int b;
-    //std::cin >> b;
+    // (a != b) : a와 b와 다르다.
 
     //if (b < 60) {
     //    printf("당신의 성적은 F입니다.");
